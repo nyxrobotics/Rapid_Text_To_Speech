@@ -25,7 +25,8 @@ ifeq "$(OS)" "MACOSX"
 endif
 
 ## LIBS
-
+#LIBS += -liostream -lfstream -lstdlib -lstring
+LIBS += -lpthread
 # HTSEngine
 INCLUDES += -I$(HTS_ENGINE_DIR)/include/
 LIBS += -L$(HTS_ENGINE_DIR)/lib -lHTSEngine

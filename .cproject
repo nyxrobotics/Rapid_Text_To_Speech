@@ -55,5 +55,16 @@
 			<resource resourceType="PROJECT" workspacePath="/Rapid_Text_To_Speech"/>
 		</configuration>
 	</storageModule>
-	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets">
+		<buildTargets>
+			<target name="rt" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>make</buildCommand>
+				<buildArguments>OJTDIR=./open_jtalk-1.05 HTSEDIR=./hts_voice_nitech_jp_atr503_m001-1.04</buildArguments>
+				<buildTarget>rt</buildTarget>
+				<stopOnError>false</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+		</buildTargets>
+	</storageModule>
 </cproject>

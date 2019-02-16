@@ -27,6 +27,8 @@ along with RapidTextToSpeech.  If not, see <http://www.gnu.org/licenses/>.
 #include <time.h>
 #include <unistd.h>
 #include <stdlib.h>
+//#include <cstdlib>
+#include <stdio.h>
 #include <sys/stat.h>
 
 using namespace std;

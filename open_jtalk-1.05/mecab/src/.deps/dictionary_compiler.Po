@@ -115,7 +115,7 @@ dictionary_compiler.o: dictionary_compiler.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/mathinline.h \
  /usr/include/c++/5/sstream /usr/include/c++/5/bits/sstream.tcc \
- freelist.h utils.h char_property.h ucs.h ucstable.h param.h scoped_ptr.h \
+ freelist.h utils.h char_property.h ucs.h param.h scoped_ptr.h \
  connector.h dictionary.h darts.h
 
 /usr/include/stdc-predef.h:
@@ -443,8 +443,6 @@ utils.h:
 char_property.h:
 
 ucs.h:
-
-ucstable.h:
 
 param.h:
 

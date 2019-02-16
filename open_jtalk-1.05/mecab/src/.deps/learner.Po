@@ -138,8 +138,7 @@ learner.o: learner.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h /usr/include/getopt.h \
  /usr/include/x86_64-linux-gnu/bits/unistd.h darts.h string_buffer.h \
- dictionary_rewriter.h tokenizer.h dictionary.h char_property.h ucs.h \
- ucstable.h
+ dictionary_rewriter.h tokenizer.h dictionary.h char_property.h ucs.h
 
 /usr/include/stdc-predef.h:
 
@@ -542,5 +541,3 @@ dictionary.h:
 char_property.h:
 
 ucs.h:
-
-ucstable.h:

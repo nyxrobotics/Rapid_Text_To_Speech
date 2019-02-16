@@ -27,6 +27,7 @@ along with RapidTextToSpeech.  If not, see <http://www.gnu.org/licenses/>.
 #include <string.h>
 #include <time.h>
 #include <unistd.h>
+#include <stdlib.h>
 
 #include "text2mecab.h"
 #include "mecab2njd.h"

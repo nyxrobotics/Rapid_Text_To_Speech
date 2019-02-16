@@ -63,13 +63,13 @@ AUTOMAKE = ${SHELL} /home/gisen/Downloads/Rapid_Text_To_Speech/open_jtalk-1.05/c
 AWK = mawk
 CC = gcc
 CCDEPMODE = depmode=gcc3
-CFLAGS = -O2 -Wall -g -g -O2
-CHARSET = -D CHARSET_EUC_JP
+CFLAGS = -O2 -Wall -g -g -O2 -finput-charset=UTF-8 -fexec-charset=UTF-8 
+CHARSET = -D CHARSET_UTF_8
 CPP = gcc -E
 CPPFLAGS = 
 CXX = g++
 CXXDEPMODE = depmode=gcc3
-CXXFLAGS = -O3 -Wall -Wno-deprecated -g -O2 
+CXXFLAGS = -O3 -Wall -Wno-deprecated -g -O2  -finput-charset=UTF-8 -fexec-charset=UTF-8 
 CYGPATH_W = echo
 DEFS = -DHAVE_CONFIG_H
 DEPDIR = .deps
@@ -95,10 +95,10 @@ LIBOBJS =
 LIBS = -lm  -lstdc++
 LTLIBOBJS = 
 MAKEINFO = ${SHELL} /home/gisen/Downloads/Rapid_Text_To_Speech/open_jtalk-1.05/config/missing --run makeinfo
-MECAB_CHARSET = euc-jp
+MECAB_CHARSET = utf-8
 MECAB_DEFAULT_RC = dummy
 MECAB_LIBS = -lstdc++
-MECAB_USE_UTF8_ONLY = 
+MECAB_USE_UTF8_ONLY = -D MECAB_USE_UTF8_ONLY
 MECAB_WITHOUT_MUTEX_LOCK = 
 MKDIR_P = /bin/mkdir -p
 OBJEXT = o
@@ -352,7 +352,7 @@ uninstall-am: uninstall-dicDATA
 
 
 char.bin matrix.bin sys.dic unk.dic: naist-jdic.csv matrix.def left-id.def rewrite.def pos-id.def right-id.def char.def unk.def feature.def
-	../mecab/src/mecab-dict-index -d . -o . -f EUC-JP -t euc-jp
+	../mecab/src/mecab-dict-index -d . -o . -f EUC-JP -t utf-8
 
 clean:
 	rm -f char.bin matrix.bin sys.dic unk.dic

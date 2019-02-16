@@ -32,7 +32,7 @@ jpcommon_label.o: jpcommon_label.c /usr/include/stdc-predef.h \
  /usr/include/xlocale.h /usr/include/x86_64-linux-gnu/bits/string.h \
  /usr/include/x86_64-linux-gnu/bits/string2.h \
  /usr/include/x86_64-linux-gnu/bits/string3.h jpcommon.h \
- jpcommon_rule_euc_jp.h
+ jpcommon_rule_utf_8.h
 
 /usr/include/stdc-predef.h:
 
@@ -122,4 +122,4 @@ jpcommon_label.o: jpcommon_label.c /usr/include/stdc-predef.h \
 
 jpcommon.h:
 
-jpcommon_rule_euc_jp.h:
+jpcommon_rule_utf_8.h:

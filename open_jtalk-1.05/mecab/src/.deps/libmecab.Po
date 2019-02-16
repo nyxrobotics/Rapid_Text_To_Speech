@@ -115,7 +115,7 @@ libmecab.o: libmecab.cpp /usr/include/stdc-predef.h mecab.h \
  /usr/include/c++/5/bits/stl_vector.h \
  /usr/include/c++/5/bits/stl_bvector.h /usr/include/c++/5/bits/vector.tcc \
  tokenizer.h freelist.h dictionary.h darts.h char_property.h ucs.h \
- ucstable.h scoped_ptr.h
+ scoped_ptr.h
 
 /usr/include/stdc-predef.h:
 
@@ -442,7 +442,5 @@ darts.h:
 char_property.h:
 
 ucs.h:
-
-ucstable.h:
 
 scoped_ptr.h:

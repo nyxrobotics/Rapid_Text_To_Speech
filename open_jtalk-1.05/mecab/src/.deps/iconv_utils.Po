@@ -115,8 +115,7 @@ iconv_utils.o: iconv_utils.cpp /usr/include/stdc-predef.h \
  /usr/include/c++/5/vector /usr/include/c++/5/bits/stl_uninitialized.h \
  /usr/include/c++/5/bits/stl_vector.h \
  /usr/include/c++/5/bits/stl_bvector.h /usr/include/c++/5/bits/vector.tcc \
- scoped_ptr.h iconv_utils.h /usr/include/iconv.h char_property.h ucs.h \
- ucstable.h
+ scoped_ptr.h iconv_utils.h /usr/include/iconv.h char_property.h ucs.h
 
 /usr/include/stdc-predef.h:
 
@@ -445,5 +444,3 @@ iconv_utils.h:
 char_property.h:
 
 ucs.h:
-
-ucstable.h:

@@ -118,11 +118,11 @@ dictionary.o: dictionary.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/mathdef.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/mathinline.h dictionary.h mecab.h \
- darts.h char_property.h ucs.h ucstable.h utils.h mempool.h mutex.h \
- string_buffer.h dictionary_rewriter.h freelist.h connector.h \
- context_id.h iconv_utils.h /usr/include/iconv.h writer.h mmap.h \
- /usr/include/errno.h /usr/include/x86_64-linux-gnu/bits/errno.h \
- /usr/include/linux/errno.h /usr/include/x86_64-linux-gnu/asm/errno.h \
+ darts.h char_property.h ucs.h utils.h mempool.h mutex.h string_buffer.h \
+ dictionary_rewriter.h freelist.h connector.h context_id.h iconv_utils.h \
+ /usr/include/iconv.h writer.h mmap.h /usr/include/errno.h \
+ /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/x86_64-linux-gnu/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
  /usr/include/x86_64-linux-gnu/sys/stat.h \
  /usr/include/x86_64-linux-gnu/bits/stat.h /usr/include/fcntl.h \
@@ -475,8 +475,6 @@ darts.h:
 char_property.h:
 
 ucs.h:
-
-ucstable.h:
 
 utils.h:
 

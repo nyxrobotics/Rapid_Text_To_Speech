@@ -113,15 +113,14 @@ tagger.o: tagger.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/mathinline.h \
  /usr/include/c++/5/sstream /usr/include/c++/5/bits/sstream.tcc \
- tokenizer.h dictionary.h darts.h char_property.h ucs.h ucstable.h \
- scoped_ptr.h param.h /usr/include/c++/5/map \
- /usr/include/c++/5/bits/stl_tree.h /usr/include/c++/5/bits/stl_map.h \
- /usr/include/c++/5/bits/stl_multimap.h string_buffer.h writer.h \
- connector.h nbest_generator.h /usr/include/c++/5/queue \
- /usr/include/c++/5/deque /usr/include/c++/5/bits/stl_deque.h \
- /usr/include/c++/5/bits/deque.tcc /usr/include/c++/5/bits/stl_queue.h \
- stream_wrapper.h /usr/include/c++/5/fstream \
- /usr/include/c++/5/bits/codecvt.h \
+ tokenizer.h dictionary.h darts.h char_property.h ucs.h scoped_ptr.h \
+ param.h /usr/include/c++/5/map /usr/include/c++/5/bits/stl_tree.h \
+ /usr/include/c++/5/bits/stl_map.h /usr/include/c++/5/bits/stl_multimap.h \
+ string_buffer.h writer.h connector.h nbest_generator.h \
+ /usr/include/c++/5/queue /usr/include/c++/5/deque \
+ /usr/include/c++/5/bits/stl_deque.h /usr/include/c++/5/bits/deque.tcc \
+ /usr/include/c++/5/bits/stl_queue.h stream_wrapper.h \
+ /usr/include/c++/5/fstream /usr/include/c++/5/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/5/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/5/bits/c++io.h \
  /usr/include/c++/5/bits/fstream.tcc
@@ -449,8 +448,6 @@ darts.h:
 char_property.h:
 
 ucs.h:
-
-ucstable.h:
 
 scoped_ptr.h:
 

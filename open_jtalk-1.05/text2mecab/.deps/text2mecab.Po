@@ -19,7 +19,7 @@ text2mecab.o: text2mecab.c /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
  /usr/include/x86_64-linux-gnu/bits/byteswap-16.h /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/string3.h text2mecab.h \
- text2mecab_rule_euc_jp.h
+ text2mecab_rule_utf_8.h
 
 /usr/include/stdc-predef.h:
 
@@ -79,4 +79,4 @@ text2mecab.o: text2mecab.c /usr/include/stdc-predef.h \
 
 text2mecab.h:
 
-text2mecab_rule_euc_jp.h:
+text2mecab_rule_utf_8.h:

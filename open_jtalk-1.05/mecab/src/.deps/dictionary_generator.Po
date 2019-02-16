@@ -136,7 +136,7 @@ dictionary_generator.o: dictionary_generator.cpp \
  /usr/include/x86_64-linux-gnu/bits/confname.h /usr/include/getopt.h \
  /usr/include/x86_64-linux-gnu/bits/unistd.h feature_index.h darts.h \
  freelist.h string_buffer.h dictionary_rewriter.h context_id.h \
- dictionary.h char_property.h ucs.h ucstable.h
+ dictionary.h char_property.h ucs.h
 
 /usr/include/stdc-predef.h:
 
@@ -533,5 +533,3 @@ dictionary.h:
 char_property.h:
 
 ucs.h:
-
-ucstable.h:

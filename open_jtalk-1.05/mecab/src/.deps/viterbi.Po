@@ -118,8 +118,8 @@ viterbi.o: viterbi.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/stdio2.h /usr/include/c++/5/iostream \
  ../../mecab/config.h viterbi.h mecab.h freelist.h utils.h tokenizer.h \
- dictionary.h darts.h char_property.h ucs.h ucstable.h string_buffer.h \
- connector.h viterbisub.h
+ dictionary.h darts.h char_property.h ucs.h string_buffer.h connector.h \
+ viterbisub.h
 
 /usr/include/stdc-predef.h:
 
@@ -460,8 +460,6 @@ darts.h:
 char_property.h:
 
 ucs.h:
-
-ucstable.h:
 
 string_buffer.h:
 

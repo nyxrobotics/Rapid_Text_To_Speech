@@ -114,8 +114,8 @@ tokenizer.o: tokenizer.cpp /usr/include/stdc-predef.h tokenizer.h mecab.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/mathinline.h \
  /usr/include/c++/5/sstream /usr/include/c++/5/bits/sstream.tcc \
- dictionary.h darts.h char_property.h ucs.h ucstable.h scoped_ptr.h \
- viterbi.h connector.h param.h /usr/include/c++/5/map \
+ dictionary.h darts.h char_property.h ucs.h scoped_ptr.h viterbi.h \
+ connector.h param.h /usr/include/c++/5/map \
  /usr/include/c++/5/bits/stl_tree.h /usr/include/c++/5/bits/stl_map.h \
  /usr/include/c++/5/bits/stl_multimap.h
 
@@ -440,8 +440,6 @@ darts.h:
 char_property.h:
 
 ucs.h:
-
-ucstable.h:
 
 scoped_ptr.h:
 

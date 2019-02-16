@@ -10662,7 +10662,7 @@ esac
 if test "${with_charset+set}" = set; then
   withval=$with_charset; charset=$withval
 else
-  charset='euc-jp'
+  charset='utf8'
 fi
 
 { $as_echo "$as_me:$LINENO: checking charset" >&5
